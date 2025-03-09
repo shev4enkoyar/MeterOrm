@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D294D9FB-6487-4584-A9B2-054253B41CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C92AA920-4BF9-433F-9929-19454894FD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterOrm.Core", "src\MeterOrm.Core\MeterOrm.Core.csproj", "{327A0268-1E09-484E-BCE2-58D77BFE82FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{79906C7D-D766-4798-B5A4-E5ED95BCECFA}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterOrm.Dlms", "src\MeterOrm.Dlms\MeterOrm.Dlms.csproj", "{F431A6E4-6CA5-4BE7-BBBD-FAA388F4F2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterOrm.MBus", "src\MeterOrm.MBus\MeterOrm.MBus.csproj", "{90B5B36B-E28E-481A-BB93-2958B59D19FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterOrm.Modbus", "src\MeterOrm.Modbus\MeterOrm.Modbus.csproj", "{D4274168-0C9E-4695-9DB4-95A4BE47808A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{327A0268-1E09-484E-BCE2-58D77BFE82FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327A0268-1E09-484E-BCE2-58D77BFE82FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327A0268-1E09-484E-BCE2-58D77BFE82FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327A0268-1E09-484E-BCE2-58D77BFE82FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F431A6E4-6CA5-4BE7-BBBD-FAA388F4F2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F431A6E4-6CA5-4BE7-BBBD-FAA388F4F2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F431A6E4-6CA5-4BE7-BBBD-FAA388F4F2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F431A6E4-6CA5-4BE7-BBBD-FAA388F4F2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B5B36B-E28E-481A-BB93-2958B59D19FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B5B36B-E28E-481A-BB93-2958B59D19FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B5B36B-E28E-481A-BB93-2958B59D19FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B5B36B-E28E-481A-BB93-2958B59D19FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4274168-0C9E-4695-9DB4-95A4BE47808A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4274168-0C9E-4695-9DB4-95A4BE47808A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4274168-0C9E-4695-9DB4-95A4BE47808A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4274168-0C9E-4695-9DB4-95A4BE47808A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{327A0268-1E09-484E-BCE2-58D77BFE82FA} = {D294D9FB-6487-4584-A9B2-054253B41CB1}
+		{F431A6E4-6CA5-4BE7-BBBD-FAA388F4F2E6} = {D294D9FB-6487-4584-A9B2-054253B41CB1}
+		{90B5B36B-E28E-481A-BB93-2958B59D19FC} = {D294D9FB-6487-4584-A9B2-054253B41CB1}
+		{D4274168-0C9E-4695-9DB4-95A4BE47808A} = {D294D9FB-6487-4584-A9B2-054253B41CB1}
+	EndGlobalSection
+EndGlobal
