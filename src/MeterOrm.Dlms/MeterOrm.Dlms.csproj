@@ -1,3 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    
+  <ItemGroup>
+    <ProjectReference Include="..\MeterOrm.Core\MeterOrm.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+  </ItemGroup>
 </Project>
